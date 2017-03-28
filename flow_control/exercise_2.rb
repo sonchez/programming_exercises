@@ -2,10 +2,11 @@
 
 def cap(word)
   if word.length > 10
-    word.upcase
+    puts word.upcase
   else
     puts "No Bueno! At least 10 characters please!"
   end
 end
-
-cap("Hey how are ya today?")
+puts 'Hey tell me something!'
+response = gets.chomp
+cap(response)
